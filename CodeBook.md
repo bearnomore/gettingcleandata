@@ -1,5 +1,5 @@
-###===================================================================
-The structure of the tidy data set is:
+###===========================================================
+###The structure of the tidy data set is:
 
 First column(variable): Subject_ID. 
 This is the numbers obtained from the corresponding files of subjects_train.txt or subjects_test.txt
@@ -9,8 +9,8 @@ This is the descriptive names of activities by matching the activity code to act
 
 Third to the last columns(variables): Measurement features.
 
-###===================================================================
-The variable names are described by the file of feature.txt. In general, they follow the rules in feature_info.txt:
+###============================================================
+###The variable names are described by the file of feature.txt. In general, they follow the rules in feature_info.txt:
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and
 tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
@@ -65,5 +65,5 @@ std(): Standard deviation
 
 meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 
-###======================================================================
+###=============================================================
 
